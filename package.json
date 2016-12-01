@@ -1,0 +1,19 @@
+{
+  "name": "test-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Stub: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamont/test-travis-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamont/test-travis-proj/issues"
+  },
+  "homepage": "https://github.com/mamont/test-travis-proj#readme"
+}
