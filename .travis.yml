@@ -6,6 +6,9 @@ node_js:
 
 deploy:
   provider: npm
+  edge:
+  	source: mamont/dpl
+    branch: add-npm-tags
   email: ${AUTHOR_EMAIL_ADDR}
   api_key: ${AUTHOR_NPM_API_KEY}
   skip_cleanup: true
