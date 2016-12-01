@@ -4,6 +4,12 @@ node_js:
   - '5'
   - '6'
 
+before_script:
+  - npm install -g travis-build-publisher
+
+before_deploy:
+  - publish-build
+
 deploy:
   provider: npm
   edge:
