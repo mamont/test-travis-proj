@@ -12,6 +12,6 @@ deploy:
   email: vasya@nowhere.com
   api_key: "xxxxx"
   skip_cleanup: true
-  tags: "alpha"
+  tag: "alpha"
   on:
     branch: master
