@@ -18,6 +18,6 @@ deploy:
   email: ${AUTHOR_EMAIL_ADDR}
   api_key: ${AUTHOR_NPM_API_KEY}
   skip_cleanup: true
-  tag: "alpha"
+  tag: "dev"
   on:
     branch: master
